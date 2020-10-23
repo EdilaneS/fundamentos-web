@@ -31,7 +31,8 @@
 }
 .backgroung{
     background-color: #fab1a0;
-    
+    background-attachment: fixed;
+    background-position: left;
 }
 .monospace {
     font-family: "Lucida Console", Courier, monospace;
