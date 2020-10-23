@@ -1,47 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
-            <a href="index.html">Home</a>
-            
+            <a class="monospace" href="index.html">Home</a>
+
         </li>
         <li>
-            <a href="contato.html">Contato</a>
+            <a class="monospace" href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Entre em Contato Comigo</h1>
-    <form>
-        <label for="nome">Nome</label><br>
-        <input type="text" name="nome">
-        <br>
-        <br>
-        <label for="email">Email</label><br>
-        <input type="text" name="email">
-        <br>
-        <br>
-        <label for="Assunto">Assunto</label><br>
-        <textarea name="Assunto" id="Assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-        <h2>Endereço</h2>
-        <p>Av. paulista 1000</p>
-        <p>São Paulo-SP</p>
+   
+    <h1 class="monospace center">Entre em Contato</h1>
+    <div class="container mb-100">
+        <div>
+            <form class="justify">
+                <label class="monospace" for="nome">Nome</label><br>
+                <input type="text" name="nome">
+                <br>
+                <br>
+                <label class="monospace" for="email" >Email</label><br>
+                <input type="text" name="email">
+                <br>
+                <br>
+                <label class="monospace" for="Assunto">Assunto</label><br>
+                <textarea name="Assunto" id="Assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button class="monospace">Enviar</button>
+            </form>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657
-        .106696296019!2d-46.65390548566283!3d-23.56461116759594!2m3!1f0!2f0!3f0!3
-        m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830
-        !2sBela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001404-100!5e0!3m2!1spt
-        -BR!2sbr!4v1603291542291!5m2!1spt-BR!2sbr" 
-        width="400" height="250" frameborder="0" 
-        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="ml-50">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1626175159845!2d-73.
+            98421818532464!3d40.75844794271086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1
+            s0x89c258ff68fa0605%3A0xcd24c13fe87c696c!2s1211%206th%20Ave%2C%20New%20York%2C%20NY%
+            2010036%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1603406766551!5m2!1spt-BR!2sbr"
+            width="400" height="350" frameborder="0" style="border:0;" allowfullscreen="" 
+            aria-hidden="false"  tabindex="0">
+        </iframe>
+        </div>
+    </div>
+    
+    <hr>
+    <footer>
+        <div class="container ">
+            <a href="https://www.facebook.com/edilane.souza.96" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook-logo.png" alt="logo do facebook">
+            </a>
+            <a href="https://www.instagram.com/lanee_sa/?hl=pt-br>" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="logo do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/edilane-santos/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin-logo.png" alt="logo do linkedin">
+            </a>
 
-    </form>
+        </div>
+        <p class="center">
+           Todos os direitos reservados: Edilane Santos &copy;
+        </p>
+        
+    </footer>
+       
+    
+   
+    
 </body>
+
 </html>
